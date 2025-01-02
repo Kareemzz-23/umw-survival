@@ -1,3 +1,4 @@
+
 body, h1, h2, p {
     margin: 0;
     padding: 0;
@@ -13,7 +14,7 @@ body {
 
 /* Header Styling */
 header {
-    background: #ffffff65;
+    background: #f4f1f1;
     border-bottom: 2px solid #eee;
     text-align: center;
     padding: 1em 0;
@@ -25,6 +26,7 @@ header {
     font-weight: 700;
     margin-bottom: 0.5em;
     color: #222;
+    background: #77727265;
 }
 
 nav ul {
@@ -73,4 +75,3 @@ footer {
     background: #fff;
     font-size: 0.9rem;
     color: #555;
-}
