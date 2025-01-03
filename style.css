@@ -164,9 +164,10 @@ footer {
     color: #555;
     
     img {
-    width: 3px;
-    height: 2px; 
+    width: 30px;
+    height: 20px; 
     object-fit: cover; /* Crop and fill the container */
     border-radius: 10px; /* Rounded corners */
+}
 }
 
