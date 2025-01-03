@@ -164,8 +164,8 @@ footer {
     color: #555;
     
     img {
-    width: 30px; /* Fixed width */
-    height: 20px; /* Fixed height */
+    width: 3px; /* Fixed width */
+    height: 2px; /* Fixed height */
     object-fit: cover; /* Crop and fill the container */
     border-radius: 10px; /* Rounded corners */
 }
