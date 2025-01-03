@@ -162,3 +162,11 @@ footer {
     background: #fff;
     font-size: 0.9rem;
     color: #555;
+    
+    img {
+    width: 30px; /* Fixed width */
+    height: 20px; /* Fixed height */
+    object-fit: cover; /* Crop and fill the container */
+    border-radius: 10px; /* Rounded corners */
+}
+
