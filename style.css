@@ -156,18 +156,20 @@ h1 {
 /* Footer Styling */
 
 footer {
-.image-container {
-    text-align: center;
+.logo-container {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 2px solid green; /* Debugging */
 }
 
-.image-container img {
-    width: 300px; /* Adjust width */
-    height: auto; /* Maintain aspect ratio */
+.responsive-logo {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
-.resize-img {
-    width: 20%; /* Set image width */
-    height: auto; /* Set image height */
-}
+
 text-align: center;
     padding: 1em 0;
     margin-top: 2em;
