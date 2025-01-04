@@ -161,8 +161,8 @@ footer {
 }
 
 .image-container img {
-    width: 30px; /* Adjust width */
-    height: auto; /* Maintain aspect ratio */
+    width: 15px; /* Adjust width */
+    height: 10; /* Maintain aspect ratio */
 }
 
 
