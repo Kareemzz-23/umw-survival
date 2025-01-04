@@ -164,16 +164,18 @@ footer {
     width: 15px; /* Adjust width */
     height: 10px; /* Maintain aspect ratio */
 }
-
-
-    text-align: center;
+.resize-img {
+    width: 300px; /* Set image width */
+    height: 200px; /* Set image height */
+}
+   { text-align: center;
     padding: 1em 0;
     margin-top: 2em;
     border-top: 2px solid #eee;
     background: #fff;
     font-size: 0.9rem;
     color: #555;
-    
+}
 }
 }
 
