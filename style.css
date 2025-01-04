@@ -47,6 +47,38 @@ nav ul li a:hover {
     color: #f6f613;
 }
 
+/* General Reset */
+body, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container for Section */
+.content-section {
+    margin: 20px; /* Adds space around the section */
+    padding: 15px; /* Internal spacing */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9fafc; /* Light background */
+}
+
+/* Heading Styling */
+.content-heading {
+    font-size: 1.8em; /* Slightly larger text */
+    color: #333; /* Dark text color */
+    margin-bottom: 10px; /* Space below heading */
+    font-weight: bold;
+}
+
+/* Paragraph Styling */
+.content-paragraph {
+    font-size: 1em; /* Standard text size */
+    line-height: 1.6; /* Improves readability */
+    color: #555; /* Slightly lighter text */
+    margin-bottom: 20px; /* Adds space below paragraph */
+}
+
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
