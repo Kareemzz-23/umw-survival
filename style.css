@@ -154,7 +154,18 @@ h1 {
 }
 
 /* Footer Styling */
+
 footer {
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    width: 30px; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
     text-align: center;
     padding: 1em 0;
     margin-top: 2em;
@@ -163,11 +174,6 @@ footer {
     font-size: 0.9rem;
     color: #555;
     
-    img {
-    width: 30px;
-    height: 20px; 
-    object-fit: cover; /* Crop and fill the container */
-    border-radius: 10px; /* Rounded corners */
 }
 }
 
