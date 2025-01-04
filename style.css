@@ -161,21 +161,21 @@ footer {
 }
 
 .image-container img {
-    width: 15px; /* Adjust width */
-    height: 10px; /* Maintain aspect ratio */
+    width: 300px; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
 }
 .resize-img {
-    width: 30px; /* Set image width */
-    height: 20px; /* Set image height */
+    width: 20%; /* Set image width */
+    height: auto; /* Set image height */
 }
-   { text-align: center;
+text-align: center;
     padding: 1em 0;
     margin-top: 2em;
     border-top: 2px solid #eee;
     background: #fff;
     font-size: 0.9rem;
     color: #555;
+
 }
-}
-}
+
 
