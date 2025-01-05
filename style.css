@@ -67,7 +67,11 @@ body, h2, p {
 .content-heading {
     font-size: 1.8em; /* Slightly larger text */
     color: #333; /* Dark text color */
-    margin-bottom: 10px; /* Space below heading */
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+    margin-bottom: 40px; /* Space below heading */
     font-weight: bold;
 }
 
