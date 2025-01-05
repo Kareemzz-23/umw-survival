@@ -71,7 +71,7 @@ body, h2, p {
     width: 100%;
     text-align: left;
 }
-    margin-bottom: 40px; /* Space below heading */
+    margin-bottom: 100px; /* Space below heading */
     font-weight: bold;
 }
 
@@ -80,6 +80,7 @@ body, h2, p {
     font-size: 1em; /* Standard text size */
     line-height: 1.6; /* Improves readability */
     color: #555; /* Slightly lighter text */
+    text-align: left;
     margin-bottom: 20px; /* Adds space below paragraph */
 }
 
@@ -208,5 +209,6 @@ text-align: center;
     width: auto; 
     max-width: 300px; 
     max-height: 300px;
+    image-allign: centre;
 }
 
