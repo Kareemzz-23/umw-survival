@@ -1,15 +1,17 @@
-
-body, h1, p {
+/* General Reset */
+body, h1, h2, h3, h4, p {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body Styling */
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #f9f9f9;
+    text-align: center;
 }
 
 /* Header Styling */
@@ -26,14 +28,16 @@ header {
     font-weight: 700;
     margin-bottom: 0.5em;
     color: #222;
-    background: #77727265;
+    background: rgba(119, 114, 114, 0.4);
 }
 
+/* Navigation Styling */
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding: 0;
 }
 
 nav ul li a {
@@ -47,69 +51,31 @@ nav ul li a:hover {
     color: #f6f613;
 }
 
-/* General Reset */
-body, h2, p {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-/* Container for Section */
+/* Content Section */
 .content-section {
-    margin: 20px; /* Adds space around the section */
-    padding: 15px; /* Internal spacing */
-    border: 1px solid #ddd; /* Subtle border */
-    border-radius: 8px; /* Rounded corners */
-    background-color: #f9fafc; /* Light background */
+    margin: 20px; 
+    padding: 15px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    background-color: #f9fafc; 
 }
 
 /* Heading Styling */
 .content-heading {
-    font-size: 1.8em; /* Slightly larger text */
-    color: #333; /* Dark text color */
-    display: inline-block;
-    width: 100%;
+    font-size: 1.8em; 
+    color: #333; 
     text-align: left;
-}
-    margin-bottom: 100px; /* Space below heading */
+    margin-bottom: 20px; 
     font-weight: bold;
 }
 
 /* Paragraph Styling */
 .content-paragraph {
-    font-size: 1em; /* Standard text size */
-    line-height: 1.6; /* Improves readability */
-    color: #555; /* Slightly lighter text */
-    display: inline-block;
+    font-size: 1em; 
+    line-height: 1.6; 
+    color: #555; 
     text-align: left;
-    margin-bottom: 20px; /* Adds space below paragraph */
-}
-
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9fafc;
-    text-align: center;
-}
-
-h2, {
-    margin: 20px 0;
-    font-size: 5em;
-}
-
-p{
-    margin: 20px 0;
-    font-size: 2em;
-    text-align: center;
-    justify-content: center;
-}
-
-h3 {
-    margin: 20px 0;
-    font-size: 2em;
+    margin-bottom: 20px; 
 }
 
 /* Card Container */
@@ -121,7 +87,7 @@ h3 {
     max-width: 1000px;
 }
 
-/* Card Wrapper (Scroll Area) */
+/* Card Wrapper */
 .card-wrapper {
     display: flex;
     overflow-x: auto;
@@ -130,7 +96,6 @@ h3 {
     padding: 10px;
 }
 
-/* Hide Scrollbar for Aesthetic Purposes */
 .card-wrapper::-webkit-scrollbar {
     display: none;
 }
@@ -202,39 +167,45 @@ h3 {
     background: rgba(0, 0, 0, 0.7);
 }
 
-}
-
 /* Footer Styling */
-
 footer {
-
-text-align: center;
+    text-align: center;
     padding: 1em 0;
     margin-top: 2em;
     border-top: 2px solid #eee;
     background: #fff;
     font-size: 0.9rem;
     color: #555;
-
 }
 
+/* Logo Styling */
 .logo {
     height: 30%; 
     width: 30%; 
-    align-items: centre;
+    display: block;
+    margin: 0 auto;
 }
 
+/* Specific Headings */
+h2 {
+    margin: 20px 0;
+    font-size: 2em;
+}
+
+h3 {
+    margin: 20px 0;
+    font-size: 1.5em;
+}
 
 h4 {
     margin: 20px 0;
-    font-size: 5em;
+    font-size: 1.2em;
     text-align: left;
-    justify-content: left;
 }
 
-p   {
-     margin: 20px 0;
-font-size: 2em;
-text-align: left;
-justify-content: left;
+/* Paragraph Alignment */
+p {
+    margin: 20px 0;
+    font-size: 1em;
+    text-align: left;
 }
