@@ -43,3 +43,17 @@ nav ul li a {
 nav ul li a:hover {
     color: #f6f613;
 }
+
+.container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.image {
+    margin-left: 20px; /* Space between the image and the text */
+}
+
+.text {
+    flex: 1; /* Allow the text to take up the remaining space */
+}
+
