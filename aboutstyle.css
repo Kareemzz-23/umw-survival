@@ -44,32 +44,19 @@ nav ul li a:hover {
     color: #f6f613;
 }
 
-.container {
-    display: flex;
-    align-items: center; /* Align items vertically in the center */
-}
-
-.image {
-    margin-left: 390px; /* Space between the image and the text */
-    width: 100px
-    height: auto
-}
-
-
-
 h4 { 
     font-size: 2.5em;
     padding: 50px
-
 }
 
-p {
-    flex: 1; /* Allow the text to take up the remaining space */
-    margin-right: 400 px
-    margin-left: 100 px
-    padding: 50px
+/* Content Section */
+.content-section {
+    margin: 20px; 
+    padding: 15px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    background-color: #f9fafc; 
 }
-    
     
     
     
