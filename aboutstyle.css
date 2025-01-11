@@ -5,6 +5,7 @@ body {
     color: #333;
     background-color: #f9f9f9;
     text-align: left;
+    margin-right: 50px
 }
 
 /* Header Styling */
@@ -12,7 +13,7 @@ header {
     background: #f4f1f1;
     border-bottom: 2px solid #eee;
     text-align: center;
-    padding: 1em 0;
+    padding: 10px;
 }
 
 .main-heading {
@@ -44,10 +45,6 @@ nav ul li a:hover {
     color: #f6f613;
 }
 
-h4 { 
-    font-size: 1em;
-    margin-bottom: 10px
-}
 
 /* Content Section */
 .content-section {
