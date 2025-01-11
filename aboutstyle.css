@@ -11,7 +11,7 @@ body {
 header {
     background: #f4f1f1;
     border-bottom: 2px solid #eee;
-    text-align: left;
+    text-align: center;
     padding: 1em 0;
 }
 
@@ -50,14 +50,25 @@ nav ul li a:hover {
 }
 
 .image {
-    margin-left: 20px; /* Space between the image and the text */
+    margin-left: 390px; /* Space between the image and the text */
     width: 100px
     height: auto
 }
 
 .text {
     flex: 1; /* Allow the text to take up the remaining space */
-    margin-right: 110 px
-    padding: 30px
+    margin-right: 300 px
+    padding: 100px
 }
+
+h4 { 
+    font-size: 2.5em;
+    padding: 100px
+
+}
+    
+    
+    
+    
+    
 
