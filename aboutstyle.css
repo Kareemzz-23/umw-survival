@@ -58,6 +58,6 @@ nav ul li a:hover {
 .text {
     flex: 1; /* Allow the text to take up the remaining space */
     margin-right: 110 px
-    padding: 30 px
+    padding: 30px
 }
 
