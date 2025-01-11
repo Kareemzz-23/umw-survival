@@ -48,11 +48,13 @@ nav ul li a:hover {
 
 /* Content Section */
 .content-section {
+    flex: 1
     margin: 20px; 
     padding: 15px; 
     border: 1px solid #ddd; 
     border-radius: 8px; 
-    background-color: #f9fafc; 
+    background-color: #f9fafc;
+    margin-right: 150px
 }
 
 h4 {
