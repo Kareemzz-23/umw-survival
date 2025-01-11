@@ -51,9 +51,13 @@ nav ul li a:hover {
 
 .image {
     margin-left: 20px; /* Space between the image and the text */
+    width: 100px
+    heoght: auto
 }
 
 .text {
     flex: 1; /* Allow the text to take up the remaining space */
+    margin-right: 110 px
+    padding: 30 px
 }
 
