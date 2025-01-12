@@ -62,7 +62,7 @@ h4 {
     margin: 20px 0;
     font-size: 2em;
 }
-.image {
+.container .image {
     width: 50px;
     height: auto;
     margin-left: 900px;
