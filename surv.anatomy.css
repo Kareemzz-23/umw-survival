@@ -1,0 +1,85 @@
+/* Body Styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    text-align: left;
+    margin-right: 50px
+}
+
+/* Header Styling */
+header {
+    background: #f4f1f1;
+    border-bottom: 2px solid #eee;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    color: #222;
+    background: rgba(119, 114, 114, 0.4);
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f6f613;
+}
+
+
+/* Content Section */
+h4 {
+    margin: 20px 0;
+    font-size: 2em;
+}
+.content-section {
+    margin: 20px; 
+    padding: 15px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    background-color: #f9fafc;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-media a img:hover {
+    transform: scale(1.2);
+}
