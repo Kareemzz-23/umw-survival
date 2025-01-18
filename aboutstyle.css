@@ -34,10 +34,7 @@ header {
   }
 nav ul {
     list-style: none;
-    display: flex;
     justify-content: center;
-    gap: 20px;
-    padding: 0;
 }
 
 nav ul li a {
