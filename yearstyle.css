@@ -26,6 +26,12 @@ header {
 }
 
 /* Navigation Styling */
+@media (max-width: 600px) {
+    .navigation {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 nav ul {
     list-style: none;
     display: flex;
@@ -44,7 +50,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #4813f6;
 }
-
+ 
 .container {
     display: flex;
     flex-wrap: wrap;

@@ -32,6 +32,12 @@ header {
 }
 
 /* Navigation Styling */
+@media (max-width: 600px) {
+    .navigation {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 nav ul {
     list-style: none;
     display: flex;
