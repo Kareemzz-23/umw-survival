@@ -26,20 +26,20 @@ header {
 }
 
 /* Navigation Styling */
+/* Mobile Navigation Styling */
 @media (max-width: 600px) {
     .navigation {
-      display: flex;
-      flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
-  }
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 0;
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
 }
-
 nav ul li a {
     text-decoration: none;
     color: #555;
