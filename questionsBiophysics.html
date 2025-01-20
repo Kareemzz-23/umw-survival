@@ -3,36 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Anatomy</title>
+    <title>Anatomy</title>
     <!-- Google Font: Playfair Display (Refinery29 vibe) -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="yearstyle.css">
 </head>
-</head>
 <body>
     <header>
         <h1 class="main-heading">UMW SURVIVAL GUIDE</h1>
-    <nav class="navigation">
-        <div class="hamburger-menu" id="hamburger-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <ul class="nav-links" id="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="Resources.html">Resources</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="Usefull.html">useful links</a></li>
-            <li><a href="surv.anatomy.html">Survival anatomist</a></li>
-        </ul>
-    </nav>
-    <script src="scriptnav.js"></script>
-</body>
-
-    <!--/*For UMW SURVIVAL ADMINS, replace " INSERT LINK HERE" with your link and "INSERT TITLE HERE" with your title, dont touch anything else*/-->
-
+        <nav class="navigation">
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="Resources.html">Resources</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="Usefull.html">Useful links</a></li>
+                <li><a href="surv.anatomy.html">Survival anatomist</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="login-form">
+        <label for="password">Enter Password:</label>
+        <input type="password" id="password">
+        <button onclick="checkPassword()">Submit</button>
+    </div>
+    <div id="protected-content" style="display: none;">
 
         <div class="container">
             <a href="https://drive.google.com/file/d/1u9YFpvVwiJlDj6dDLCzwGkiQC21DvxR6/view?usp=drive_link" class="block">
@@ -61,5 +62,19 @@
                 </div>
             </a>
         </div>
+    </div>
+    <script>
+        function checkPassword() {
+            const password = document.getElementById('password').value;
+            const correctPassword = '10101'; 
+            if (password === correctPassword) {
+                document.getElementById('login-form').style.display = 'none';
+                document.getElementById('protected-content').style.display = 'block';
+            } else {
+                alert('Incorrect password. Please try again.');
+            }
+        }
+    </script>
+    <script src="scriptnav.js"></script>
     </body>
     </HTML>
