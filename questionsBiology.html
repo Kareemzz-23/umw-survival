@@ -29,7 +29,15 @@
         </ul>
     </nav>
     <script src="scriptnav.js"></script>
+    
+
 </body>
+<div id="login-form">
+    <label for="password">Enter Password:</label>
+    <input type="password" id="password">
+    <button onclick="checkPassword()">Submit</button>
+</div>
+<div id="protected-content">
         <div class="container">
             <a href="https://drive.google.com/file/d/1mowWbedMoDmmH-YMWmd77BNzvtphaJQb/view?usp=drive_link" class="block">
                 <div class="content">
@@ -68,6 +76,18 @@
                 </div>
             </a>
         </div>
-
-    </body>
-    </HTML>
+    </div>
+    <script>
+        function checkPassword() {
+            const password = document.getElementById('password').value;
+            const correctPassword = '10101'; 
+            if (password === correctPassword) {
+                document.getElementById('login-form').style.display = 'none';
+                document.getElementById('protected-content').style.display = 'block';
+            } else {
+                alert('Incorrect password. Please try again.');
+            }
+        }
+    </script>
+</body>
+</html>
